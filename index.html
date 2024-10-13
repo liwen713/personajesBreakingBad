@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes de Breaking Bad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personajes de Breaking Bad</h1>
+        <div class="controls">
+            <input type="number" id="characterCount" min="1" max="10" value="5">
+            <button id="fetchCharacters">Obtener Personajes</button>
+            <button id="clearCharacters">Limpiar</button>
+            <input type="text" id="searchInput" placeholder="Buscar personajes...">
+        </div>
+        <div id="characterContainer" class="character-grid"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
